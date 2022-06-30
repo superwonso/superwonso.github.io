@@ -1,9 +1,9 @@
-*.gem
-.bundle
+#*.gem
+#.bundle
 .sass-cache
-_site
-Gemfile.lock
-.DS_Store
-vendor
+#_site
+#Gemfile.lock
+#.DS_Store
+#vendor
 .jekyll-cache
-tags
+#tags
