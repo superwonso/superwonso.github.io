@@ -2,10 +2,8 @@
 layout: post
 title:  "[논문/리뷰]Blockchain for AI: Review and Open Research Challenges"
 date:   2022-07-04 18:10:00 +0900
-categories: Paper Review Blockchain AI Machine-Learning IEEE-Access
+categories: Paper Review Blockchain AI Machine%20Learning IEEE%20Access
 ---
-
-# Blockchain for AI: Review and Open Research Challenges
 
 평소 블록체인 기술에 관하여 관심을 갖고 있었다.
 
@@ -49,9 +47,9 @@ Decentralized AI는 AI와 블록체인 기술이 융합된 AI 기술로 과정�
 
 섹션 4(Blockchain-Enabled AI Applications)에서는 AI를 위한 블록체인 어플리케이션을 설명한다.
 
-섹션 5(Conclusion)에서는 다양한 공개 연구 과제와 문제를 제시한다.
+섹션 5(Open Research Challenges)에서는 다양한 공개 연구 과제와 문제를 제시한다.
 
-섹션 6에서는 논문을 마무리한다.
+섹션 6(Conclusion)에서는 논문을 마무리한다.
 
 ---
 
@@ -71,7 +69,43 @@ Decentralized AI는 AI와 블록체인 기술이 융합된 AI 기술로 과정�
 
 이더리움(Ethereum)이 대표적으로 이를 활용하는 전자 화폐인데, 스마트 계약은 트랜잭션(tran-saction)을 이더리움 지갑의 주소에 위탁하고, 해당 트랜잭션에 위탁된 input에 따라서 스마트 계약의 내용이 수행된다.
 
-#서술중
+이더리움은 이더(Ether)라는 자산을 사용하는데, 이는 이더리움 블록체인에서 트랜잭션을 위한 거래 수단으로 사용된다. 이더리움 네트워크의 각각의 참여자들은 유니크한 주소값인 이더리움 주소(Eth-ereum Address, EA)를 갖는다.
+
+일반적으로 블록체인들은 큰 양의 데이터들을 저장하기 위해 비싼 값을 치룬다. 
+
+예를들어, 비트코인 블록체인에서는 1MB당 1블럭을 사용하기 때문에 많은 비용을 치루어야 한다.
+
+이러한 문제를 해결하기 위해, 탈중앙화 되어있는 저장공간을 각각의 데이터와 해시들을 저장하기 위해 스마트 계약을 이용하여 블록들을 연결하여 사용한다.
+
+탈중앙화 되어있는 저장공간 기술에는 Interplanetary File System(IPFS), Swarm, Filecoin, BigChainDB, Storj 등이 있다.
+
+그 중에서도 IPFS에 대해 설명하면, IPFS는 P2P 네트워크로써 분산화 되어 있고 탈중앙화 되어 있는, 컴퓨터들의 노드를 연결하여 일반적인 파일 시스템을 공유하는 기능을 한다. 
+
+이 파일 시스템은 노드 목록을 갖고 있으므로, 파일의 변조를 허용하지 않기때문에 블록체인 네트워크와 유사하게 작동한다고 할 수 있다. 또한 분산되어 저장된다는 특성을 갖고 있으므로, 장치 하나의 연결이 끊어져도 파일에 접근 할 수 있다.
+
+이 기술을 이용하는 대표적인 시스템에는 토렌트(Torrent)가 있다.
+
+**B. Artificial Intelligence (AI)**
+
+Table 1. Latest trends in AI applications and benefits of using blockchain.
+
+![Table_1](2022-07-04-Blockchain%20for%20AI%20Review%20and%20Open%20Research%20Challenge/Table_1.png)
+
+Figure 1. An overview of AI systems and features in relation to blockchain and IoT-enabled ecosystems.
+
+![Figure_1](2022-07-04-Blockchain%20for%20AI%20Review%20and%20Open%20Research%20Challenge/Figure_1.png)
+
+AI research 분야에선 자기 자신들을 “intelligent agents”에 대한 연구라고 규정한다.
+
+즉, 환경을 인식하고 목표에 도달하기 위한 가능성을 최대화 하는 것을 말한다.
+
+오늘날의 거의 대부분의 AI system들은 특정한 목표에 특화되어 있는 데이터셋을 결정을 내리기 위해 이용한다.
+
+그러나, 많은 연구자들은 실생활에 긍정적으로 영향을 미칠, “진짜 똑똑한 결정”을 내릴 AI system를 만들기 위해 노력하고 있다.
+
+Table 1은 AI apps에 관한 몇 가지의 새로운 트렌드와 그것의 장점을 보여준다.
+
+...서술중...
 
 **Reference**
 
