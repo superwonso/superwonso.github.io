@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    plainwhite (0.13)
+    plainwhite (0.13.0)
       jekyll (>= 3.7.3)
       jekyll-seo-tag (>= 2.1.0)
 
