@@ -89,11 +89,11 @@ Decentralized AI는 AI와 블록체인 기술이 융합된 AI 기술로 과정�
 
 Table 1. Latest trends in AI applications and benefits of using blockchain.
 
-![Table_1](2022-07-04-Blockchain%20for%20AI%20Review%20and%20Open%20Research%20Challenge/Table-1.png)
+![Table_1](220704/Table1.png)
 
 Figure 1. An overview of AI systems and features in relation to blockchain and IoT-enabled ecosystems.
 
-![Figure_1](2022-07-04-Blockchain%20for%20AI%20Review%20and%20Open%20Research%20Challenge/Figure-1.png)
+![Figure_1](220704/Figure1.png)
 
 AI research 분야에선 자기 자신들을 “intelligent agents”에 대한 연구라고 규정한다.
 
