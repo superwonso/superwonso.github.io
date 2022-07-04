@@ -2,8 +2,9 @@
 layout: post
 title:  "[논문/리뷰]Blockchain for AI: Review and Open Research Challenges"
 date:   2022-07-04 18:10:00 +0900
-categories: Paper Review Blockchain AI Machine-Learning IEEE-Access Cybersecurity Smart-Contracts Consensus-Protocols
+categories: Paper Review Blockchain AI Machine-Learning IEEE-Access
 ---
+
 # Blockchain for AI: Review and Open Research Challenges
 
 평소 블록체인 기술에 관하여 관심을 갖고 있었다.
