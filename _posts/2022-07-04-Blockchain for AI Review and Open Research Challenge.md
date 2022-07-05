@@ -15,7 +15,7 @@ categories: Paper Review Blockchain AI Machine-Learning IEEE-Access
 
 **I. INTRODUCTION**
 
-필자에 따르면, 블록체인은 과장되어 있는 기술(one of the most hyped innovations) 중에 하나라고 한다.  2008년 이래로(Bitcoin을 말하는듯 함) 블록체인은 결제의 자동화, 거래의 추적과 그 방식 등에 관한 혁명적인 기술(disruptive innovation)이었다고 한다. 매우 높은 비율 효율성을 가진 이 기술은 변경이 불가능하고 동기화가 되는 타임스탬프를 기록하여 보안을 높였다고 한다.
+필자에 따르면, 블록체인은 과장되어 있는 기술(one of the most hyped innovations) 중에 하나라고 한다.  2008년 이래로(Bitcoin을 말하는듯 함) 블록체인은 결제의 자동화, 거래(트랜잭션)의 추적과 그 방식 등에 관한 혁명적인 기술(disruptive innovation)이었다고 한다. 매우 높은 비율 효율성을 가진 이 기술은 변경이 불가능하고 동기화가 되는 타임스탬프를 기록하여 보안을 높였다고 한다.
 
 이는 암호화폐의 측면에서 서술된 문장인 듯 하고, 필자는 다른 분야에서도(Another promient field) 큰 관심을 받고 있다고 한다. 이 분야는 기계가 수집한 데이터를 기반으로 학습 및 추론을 하고 이를 적용하여 인지 기능을 갖도록 하는 AI 분야다. 2019년 시점에서의 시장 조사에 따르면 2030년까지 AI 분야 시장은 13조 달러 규모까지 성장할 것이라고 한다.
 
@@ -91,10 +91,6 @@ Table 1. Latest trends in AI applications and benefits of using blockchain.
 
 ![Table1](/assets/images/220704/Table1.png)
 
-Figure 1. An overview of AI systems and features in relation to blockchain and IoT-enabled ecosystems.
-
-![Figure1](/assets/images/220704/Figure1.png)
-
 AI research 분야에선 자기 자신들을 “intelligent agents”에 대한 연구라고 규정한다.
 
 즉, 환경을 인식하고 목표에 도달하기 위한 가능성을 최대화 하는 것을 말한다.
@@ -105,7 +101,50 @@ AI research 분야에선 자기 자신들을 “intelligent agents”에 대한 
 
 Table 1은 AI apps에 관한 몇 가지의 새로운 트렌드와 그것의 장점을 보여준다.
 
-...서술중...
+**C. How Blockchain Can Transform AI**
+
+Figure 1. An overview of AI systems and features in relation to blockchain and IoT-enabled ecosystems.
+
+![Figure1](/assets/images/220704/Figure1.png)
+
+AI와 블록체인의 결합으로 서로의 단점을 보완해주어 기술적인 생태계에 기여할 것이다.
+
+AI 알고리즘은 데이터 혹은 정보에 기반하여 배우고, 추론하고, 최종적인 결정을 내린다.
+
+머신 러닝 알고리즘은 의지할 수 있고(reliable), 신뢰성 있고 안전한 데이터 레포지토리나 플랫폼에서 데이터를 갖고올 때 보다 효율적일 것이다.
+
+데이터를 모으고 거래할 수 있는 분산된 렛저를 제공하는 블록체인에 의해 상단에 서술한 데이터 레포지토리 혹은 플랫폼이 구축될 수 있을 것이다.
+
+블록체인의 데이터들은 높은 무결성과 재사용성(resiliency)을 갖고, 그 데이터들을 함부로 조작할 수 없다는 특성을 갖는다.
+
+스마트 계약은 머신러닝 알고리즘에서 결정을 내리고 분석한 것을 적용하는 것에 이용되고, 그 결정 및 적용은 신뢰할 수 있고 분쟁의 소지를 없앤다.
+
+AI와 블록체인의 강화는 높은 민감성을 갖는 정보(개인정보, 금융정보, 의료정보 등등..)를 모으고, 활용하고, 저장해두는 AI 중심의 시스템에 대해 보안성, 불변성, 분산화된 시스템을 제공할 것 이다.
+
+Figure 1은 AI가 높은 가용성을 갖는 여러 블록체인 플랫폼에 의해 받을 수 있는 수혜를 나타낸 것이다. 이 자료에서의 데이터들은 일반적으로 IoT 기기, 스웜로봇, 스마트 도시, 스마트 기기 등에서 유래된 것이다.
+
+Table 2. Key features and benefits of blockchain integration with AI.
+
+
+![Table2](/assets/images/220704/Table2.png)
+
+클라우드의 기능과 서비스들은 off-chain(블록체인 밖에 데이터를 저장하는 것) 머신러닝과 intelligent decision, 데이터 시각화 기술등에 기여를 하였다. 
+
+Table 2는 AI와 블록체인의 융합이 갖고 올 이점을 정리한 표다.
+
+---
+
+**III. Taxonomy**
+
+Figure 2. Taxonomy of blockchain for AI
+
+![Figure2](/assets/images/220704/Figure2.png)
+
+이번 섹션에서는 자세한 분류와 AI에 블록체인 기술 적용에 관하여 주요한 쟁점을 정리할 것이다.
+
+Figure 2는 트리 구조로 탈중앙화 AI의 방법론과 수행, 블록체인의 인프라와 종류, 분산 탈중앙화 트랜잭션의 합의 프로토콜들을 서술한 것이다.
+
+!서술중
 
 **Reference**
 
