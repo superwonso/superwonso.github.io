@@ -289,4 +289,4 @@ AI 응용 프로그램에서의 학습의 주요한 역할은 환경을 현재�
 
 1. Blockchain for AI: Review and Open Research Challenges, K. Salah et al., IEEE Access, 7, 10127-10149, 2019 ([https://ieeexplore.ieee.org/abstract/document/8598784](https://ieeexplore.ieee.org/abstract/document/8598784))
 
-[1] [https://terms.naver.com/entry.naver?docId=5678575&cid=42346&categoryId=42346](https://terms.naver.com/entry.naver?docId=5678575&cid=42346&categoryId=42346)
+2. [[1] 네이버 지식백과 - 백홀](https://terms.naver.com/entry.naver?docId=5678575&cid=42346&categoryId=42346)
