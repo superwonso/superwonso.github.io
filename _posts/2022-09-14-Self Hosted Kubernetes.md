@@ -74,6 +74,23 @@ on-premises 서버부터 클라우드 인스턴스까지, 어떤 환경이던간
 
 **II. The Theory of Kubernetes**
 
+*A. What is Kubernetes*
+
+*B. Terms in Kubernetes*
+
+*C. Ways to use Kubernetes*
+
+*D. How to work with MiniKube*
+
+**III. Practical Implementation**
+
+*A. Flowchart of implementation*
+
+*B. Methodology of Implementation*
+
+**IV. Conclusion and Applications**
+
+---
 
 ***Reference***
 
