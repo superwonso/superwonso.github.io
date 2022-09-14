@@ -42,13 +42,41 @@ Fig. 1. VM과 컨테이너의 차이점
 아래 사진은 컨테이너의 구조이다.
 
 ![Picture 1](/assets/images/220914/Pic1.png)
+컨테이너는 어플리케이션과 어플리케이션을 지원하기 위한 파일들(의존성, dependencies)을 포함하고 이를 호스트 OS에서 돌린다.
 
+*C. Insight into the working of Docker*
 
+Docker은 개발자들을 위한 플랫폼으로, 컨테이너 위에서의 개발, 배포, 어플리케이션 실행을 위해 쓰인다.
 
+1) 컨테이너는 이미지를 돌리며 실행된다. 이미지는 실행 가능한 패키지들과 필요한 모든 것들(코드, 런타임, 라이브러리, 환경 변수, 설정 파일)을 포함한다. Docker에서는 이러한 이미지들을 DockerFile이라고 칭한다. 베이스 이미지에는 항상 DockerFile이 구축된다.
+DockerHub은 여러 도커 이미지들의 Public Repository로, Public/Private 여부는 설정하여 Repository를 생성할 수 있다.
+2) 가상화 된 디스크와 네트워크 인터페이스 등에 접근하고, 정보를 DockerFile에 제공한다.
+3) "docker build" 커맨드를 이용하여 DockerFile 또는 이미지를 기반으로 컨테이너를 빌드한다. 
+4) DockerFile에 정의되어 있는 어플리케이션에 대한 빌드는 어디서 돌아가던지 동일하다. Docker 클라이언트는 콘테이너를 생성하기 위해 Docker daemon와 통신한다.
+모든 이미지들은 Public 또는 Private Registries에 저장된다.
 
+*D. What are Container Orchestration Tools?*
+
+Docker가 가장 많이 쓰이는 컨테이너 도구이다. 보통 하나의 어플리케이션에는 여러 개의 컨테이너가 같이 동작한다. 따라서 이러한 컨테이너들을 관리해줄 도구가 필요하다.
+컨테이너 조율(Orchestration) 도구들이 이러한 역할을 해 준다.
+컨테이너 조율 도구는 크고 역동적인(dynamic) 환경이라 하더라도 컨테이너들의 수명 주기(life-cycle)를 관리해줄 수 있다.
+현재 존재하는 컨테이너 조율 도구에는 Kubernetes, Docker Swarm, Apache Mesos 등이 있다.
+컨테이너는 일반적으로 복제된 그룹에 있는 호스트에 배포된다.
+컨테이너 조율 도구는 deployment를 스케쥴링하고, 사전에 정의된 제약 사항들(CPU, 가용 메모리 등..)을 기반으로 컨테이너를 배치하는 데 가장 적합한 호스트를 찾는다.
+컨테이너가 호스트에서 돌아가는 동안, 컨테이너 조율 도구는 DockerFile와 같은 컨테이너 정의 파일을 기반으로 컨테이너의 생명 주기를 관리한다.
+
+on-premises 서버부터 클라우드 인스턴스까지, 어떤 환경이던간에 컨테이너만 돌아간다면  컨테이너 조율 도구를 사용할 수 있다.
+
+*E. Why to choose Kubernetes for a containerization tool?*
+
+컨테이너 조율 도구는 각자 장단점이 있지만 k8s는 아키텍쳐, HA needs, 유연성, 러닝 커브
+등을 깁나으로 하는 다른 도구와 차별점을 갖는다.
+
+**II. The Theory of Kubernetes**
 ***Reference***
 
-1. Self-Hosted Kubernetes: Deploying Docker Containers Locally With Minikube, Ruchika Muddinagiri et al., 2019 International Conference on Innovative Trends and Advances in Engineering and Technology (ICITAET), [https://ieeexplore.ieee.org/document/9170208](https://ieeexplore.ieee.org/document/9170208)
+Self-Hosted Kubernetes: Deploying Docker Containers Locally With Minikube, 
+Ruchika Muddinagiri et al., 2019 International Conference on Innovative Trends and Advances in Engineering and Technology (ICITAET), [https://ieeexplore.ieee.org/document/9170208](https://ieeexplore.ieee.org/document/9170208)
 
 [1] https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/
 [2] https://tech.weperson.com/wedev/frontend/bundling-transpiler/
