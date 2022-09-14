@@ -18,7 +18,7 @@ on-premise 배포는 보통 파이낸스나 헬스케어 같은 민감한 정보
 * on-premise : 서버를 클라우드 환경이 아닌 자체 설비로 보유하고 운영
 * scaling : 많은 수의 사용자 요청을 처리하거나 서버의 부하량을 관리하기 위해 기존 구성(서버, 컴퓨터)을 확장하는 프로세스 [1]
 
-**Introduction**
+**I. Introduction**
 
 *A. What is Contanerization*
 
@@ -73,6 +73,8 @@ on-premises 서버부터 클라우드 인스턴스까지, 어떤 환경이던간
 등을 깁나으로 하는 다른 도구와 차별점을 갖는다.
 
 **II. The Theory of Kubernetes**
+
+
 ***Reference***
 
 Self-Hosted Kubernetes: Deploying Docker Containers Locally With Minikube, 
