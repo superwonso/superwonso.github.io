@@ -70,13 +70,23 @@ on-premises 서버부터 클라우드 인스턴스까지, 어떤 환경이던간
 *E. Why to choose Kubernetes for a containerization tool?*
 
 컨테이너 조율 도구는 각자 장단점이 있지만 k8s는 아키텍쳐, HA needs, 유연성, 러닝 커브
-등을 깁나으로 하는 다른 도구와 차별점을 갖는다.
+등을 기반으로 하는 다른 도구와 차별점을 갖는다.
 
 **II. The Theory of Kubernetes**
 
 *A. What is Kubernetes*
 
+k8s란, 여러 서버에 배포되어있는 컨테이너들을 조율(스캐쥴링 및 매니지를 의미)하는 도구다. 
+k8s는 Linux 컨테이너에 관한 작업을 자동화하여, manual processes와 관련된 것을 제거한다.
+
 *B. Terms in Kubernetes*
+
+이는 영어로 보는 것이 보다 직관적인 이해에 도움을 줄 것 같아 영어 원문을 서술한다.
+1. Node : It is a worker machine
+2. Cluster : A group of nodes
+3. Pods : They are the atomic units which can contain one or more containers.
+4. Deployments : They provide the most common way to create and manage pods.
+5. Service : A service declares how pods can be accessed. It is the virtual server inside the node. When pods need to communicate, they use 'services'.
 
 *C. Ways to use Kubernetes*
 
