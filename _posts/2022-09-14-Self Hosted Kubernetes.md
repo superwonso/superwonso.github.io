@@ -93,7 +93,7 @@ k8s는 Linux 컨테이너에 관한 작업을 자동화하여, manual processes�
 
 1. Hosted : Hosted k8s는 k8s를 사용하는 클라우드 서비스들을 말한다. 사용자가 k8s를 사용하고 싶으면, 클라우드 서비스 프로바이더에게 요청만 하면 된다. 이는 머신들을 보정하고, 뛰어난 가용성을 제공하기 위한 쉬운 선택 옵션 중 하나다.
 
-2. Self-Hosted : 
+2. Self-Hosted : Self-Hosted k8s는 단일 서버에서 k8s를 이용하여 어플리케이션을 테스트 혹은 배포할 수 있게 해준다.
 
 
 *D. How to work with MiniKube*
