@@ -111,8 +111,6 @@ k8s는 Linux 컨테이너에 관한 작업을 자동화하여, manual processes�
 ***Reference***
 
 Original : Self-Hosted Kubernetes: Deploying Docker Containers Locally With Minikube, 
-Ruchika Muddinagiri et al., 2019 International Conference on Innovative Trends and Advances in Engineering and Technology (ICITAET), [https://ieeexplore.ieee.org/document/9170208](https://ieeexplore.ieee.org/document/9170208)
-
-[1] [https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/](https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/)
-
-[2] [https://tech.weperson.com/wedev/frontend/bundling-transpiler/](https://tech.weperson.com/wedev/frontend/bundling-transpiler/)
+Ruchika Muddinagiri et al., 2019 International Conference on Innovative Trends and Advances in Engineering and Technology (ICITAET), [https://ieeexplore.ieee.org/document/9170208](https://ieeexplore.ieee.org/document/9170208)  
+[1] [https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/](https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/)  
+[2] [https://tech.weperson.com/wedev/frontend/bundling-transpiler/](https://tech.weperson.com/wedev/frontend/bundling-transpiler/)  
