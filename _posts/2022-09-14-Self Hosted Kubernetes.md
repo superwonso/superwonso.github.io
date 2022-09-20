@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[논문/리뷰] Self-Hosted Kubernetes: Deploying Docker Containers Locally With Minikube"
+title:  "[논문/리뷰] Self-Hosted Kubernetes: Deploying Docker Containers Locally With MiniKube"
 date:   2022-09-14 16:19:30 +0900
 categories: Paper Review Kubernetes MiniKube 
 ---
@@ -91,26 +91,48 @@ k8s는 Linux 컨테이너에 관한 작업을 자동화하여, manual processes�
 
 *C. Ways to use Kubernetes*
 
-1. Hosted : Hosted k8s는 k8s를 사용하는 클라우드 서비스들을 말한다. 사용자가 k8s를 사용하고 싶으면, 클라우드 서비스 프로바이더에게 요청만 하면 된다. 이는 머신들을 보정하고, 뛰어난 가용성을 제공하기 위한 쉬운 선택 옵션 중 하나다.
+1. Hosted : Hosted k8s는 k8s를 사용하는 클라우드 서비스들을 말한다. 사용자가 k8s를 사용하고 싶으면, 클라우드 서비스 프로바이더에게 요청만 하면 된다. 이는 머신들을 확장하고, 뛰어난 가용성을 제공하기 위한 쉬운 선택 옵션 중 하나다.
 
 2. Self-Hosted : Self-Hosted k8s는 단일 서버에서 k8s를 이용하여 어플리케이션을 테스트 혹은 배포할 수 있게 해준다.
 
+이 논문(paper)에선 로컬에서의 self-deployed solutions를 구축하는데에 집중한다.
 
 *D. How to work with MiniKube*
+
+논문의 필자는 윈도우 10에서 Docker Toolbox, kubectl, MiniKube + Virtual Box를 활용하여 진행하였다.  
+
+MiniKube를 사용한 이유 : 윈도우 환경에서, MiniKube를 이용하면 Virtual Box와 Hyper-V를 포함한 여러 드라이버를 사용할 수 있기 때문에.  
+
+Docker Toolbox를 사용 한 이유 : Minukube는 이미 Docker daemon을 깔며 사전에 설치되어 있다. 하지만 Docker client와 통신을 하기 위해선 Docker Toolbox가 필요하다.
+
+Virtual Box를 사용 한 이유 : MiniKube는 Virtual Box를 이용하여 노드(Virtual machine)을 생성한다. 이러한 Virtual machine을 boot2docker이라고 하는데, 이는 2GB의 메모리와 2 코어의 CPU만을 요구하기 때문에 적은 리소스로 단일 노드를 생성하는데에 적합하다.  
+
+MiniKube는 단일 노드 틀러스터만을 지원하지만, 개발 용도에서는 단일 노드의 클러스터면 충분하다.  
 
 **III. Practical Implementation**
 
 *A. Flowchart of implementation*
+  
+![Figure 4](/assets/images/220914/Figure4.png)
+
+Fig 4. Flowchart of implementation, github.com/superwonso 재구성
 
 *B. Methodology of Implementation*
 
+파이썬을 이용한 k8s 서버 구축 방법에 대해서는 추후 서술 예정.
+
 **IV. Conclusion and Applications**
+
+MiniKube는 kubectl을 이용한 뛰어난 CLI 에서의 작업을 제공한다. Docker daemon에 내장되어 있는 MiniKube는 이를 이용하여 배포할 때 유용함을 제공한다. 또한 워크로드를 관리하기 위하여 온-클릭 확장 옵션을 제공한다. MiniKube를 이용한 어플리케이션 컨테이너가 성공적으로 작동하는지 확인 한 후에는 IT 기업은 클라우드 상품을 이용하여 보다 쉽게 배포할 수 있을 것이다. 이는 k8s를 이용하여 보다 효율적인 컨테이너 구성과 관리를 제공해줄 것이다.  
+현재 MiniKube와 도커 컨테이너를 사용하는 어플리케이션은 많이 있다. 전에도 언급했듯이, 경제나 건강같이 고객의 민감한 정보를 다루는 domain들은 클라우드에 업로드 하기에는 보안 리스크가 크다. Minikube를 이용한다면 이러한 환경에서도 보다 쉽게 조직을 확장 할 수 있을 것이다.  
+또한 클라우드와 같은 곳에 실제로 배포하기 전에 로컬 테스트 환경을 구성할 때에도 유용함을 제공할 것이다. 
 
 ---
 
 ***Reference***
 
-Original : Self-Hosted Kubernetes: Deploying Docker Containers Locally With Minikube, 
+Original : Self-Hosted Kubernetes: Deploying Docker Containers Locally With MiniKube, 
 Ruchika Muddinagiri et al., 2019 International Conference on Innovative Trends and Advances in Engineering and Technology (ICITAET), [https://ieeexplore.ieee.org/document/9170208](https://ieeexplore.ieee.org/document/9170208)  
+
 [1] [https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/](https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/)  
 [2] [https://tech.weperson.com/wedev/frontend/bundling-transpiler/](https://tech.weperson.com/wedev/frontend/bundling-transpiler/)  
