@@ -42,6 +42,7 @@ Fig. 1. VM과 컨테이너의 차이점
 아래 사진은 컨테이너의 구조이다.
 
 ![Picture 1](/assets/images/220914/Pic1.png)
+
 컨테이너는 어플리케이션과 어플리케이션을 지원하기 위한 파일들(의존성, dependencies)을 포함하고 이를 호스트 OS에서 돌린다.
 
 *C. Insight into the working of Docker*
@@ -112,6 +113,6 @@ k8s는 Linux 컨테이너에 관한 작업을 자동화하여, manual processes�
 Original : Self-Hosted Kubernetes: Deploying Docker Containers Locally With Minikube, 
 Ruchika Muddinagiri et al., 2019 International Conference on Innovative Trends and Advances in Engineering and Technology (ICITAET), [https://ieeexplore.ieee.org/document/9170208](https://ieeexplore.ieee.org/document/9170208)
 
-[1] https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/
+[1] [https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/](https://www.geeksforgeeks.org/overview-of-scaling-vertical-and-horizontal-scaling/)
 
-[2] https://tech.weperson.com/wedev/frontend/bundling-transpiler/
+[2] [https://tech.weperson.com/wedev/frontend/bundling-transpiler/](https://tech.weperson.com/wedev/frontend/bundling-transpiler/)
