@@ -20,7 +20,7 @@ on-premise 배포는 보통 파이낸스나 헬스케어 같은 민감한 정보
 
 **I. Introduction**
 
-*A. What is Contanerization*
+*A. What is Containerization*
 
 Containerization은 어플리케이션들(설정 파일, 라이브러리, 종속성을 포함)을 bundling 해주는 과정이다. 어플리케이션을 효율적으로 실행하기 위해 사용된다.
 * bundling : 여러 개로 흩어져 있는 파일들을 압축, 난독화 등을 하여 하나의 파일로 모아주는 것 [2]
