@@ -9,7 +9,7 @@ excerpt: "마이크와 녹음 파일로 수업을 받아쓰고, 요약·번역�
 
 수업을 들으면서 모든 내용을 동시에 적기는 어렵다. 나중에 다시 읽을 수 있는 기록을 남기는 데 도움이 되도록 만들고 있는 웹 앱, **여백**을 소개한다.
 
-[여백 열기](https://superwonso.github.io/stt_server_cdh/) · [소스와 사용 안내](https://github.com/superwonso/stt_server_cdh) · [첫 패치노트](/projects/yeobaek/updates/2026-09-05/)
+[여백 열기](https://superwonso.github.io/stt_server_cdh/) · [소스와 사용 안내](https://github.com/superwonso/stt_server_cdh) · [첫 패치노트](/projects/yeobaek/updates/2026-09-05/) · [최근 패치노트](/projects/yeobaek/updates/2026-09-10/)
 
 ## 어떤 일을 할 수 있나
 
